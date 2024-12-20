@@ -1,7 +1,7 @@
 # ThirdSign
 An iOS device sideloading tool ZSign ported to iOS using C++ and bridging headers.
 
-I made this to prove how it was possible to exploit signing capibilities on iOs and install apps locally
+I made this to prove how it was possible to exploit signing capibilities on iOS and install apps locally
 with an http proxy.
 
 ![Untitled design-33](https://github.com/user-attachments/assets/95454acb-5a1f-4bd1-b2b5-6786ec1643d3)
