@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB278AEB2BD2B446005AA955 /* FixSubstrate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB278AE72BD2B082005AA955 /* FixSubstrate.m */; };
-		AB278AFE2BD2B692005AA955 /* headers.m in Sources */ = {isa = PBXBuildFile; fileRef = AB278AF82BD2B692005AA955 /* headers.m */; };
-		AB278AFF2BD2B692005AA955 /* operations.m in Sources */ = {isa = PBXBuildFile; fileRef = AB278AF92BD2B692005AA955 /* operations.m */; };
-		AB278B002BD2B692005AA955 /* NSData+Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = AB278AFB2BD2B692005AA955 /* NSData+Reading.m */; };
 		AB6AFC752B96D6450024C94E /* Nocturna_SideloadingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AFC742B96D6450024C94E /* Nocturna_SideloadingApp.swift */; };
 		AB6AFC772B96D6450024C94E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AFC762B96D6450024C94E /* ContentView.swift */; };
 		AB6AFC792B96D6460024C94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6AFC782B96D6460024C94E /* Assets.xcassets */; };
@@ -30,9 +26,13 @@
 		AB77298A2BD32D110000CCCD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB77297C2BD32D110000CCCD /* README.md */; };
 		AB77298B2BD32D110000CCCD /* signing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB77297D2BD32D110000CCCD /* signing.cpp */; };
 		AB77298C2BD32D110000CCCD /* zsign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB77297F2BD32D110000CCCD /* zsign.cpp */; };
-		AB77299C2BD343650000CCCD /* CydiaSubstrate.framework in Resources */ = {isa = PBXBuildFile; fileRef = AB7729962BD33A330000CCCD /* CydiaSubstrate.framework */; };
 		AB77299E2BD346390000CCCD /* libsubstrate.dylib in Resources */ = {isa = PBXBuildFile; fileRef = AB77299D2BD346390000CCCD /* libsubstrate.dylib */; };
 		AB7729A12BD34B9F0000CCCD /* LoggingBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB7729A02BD34B9F0000CCCD /* LoggingBridge.mm */; };
+		AB7C375A2D15FEA800C0341D /* FixSubstrate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C37592D15FEA800C0341D /* FixSubstrate.m */; };
+		AB7C375E2D15FEDB00C0341D /* headers.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C375D2D15FEDB00C0341D /* headers.m */; };
+		AB7C37612D15FEED00C0341D /* NSData+Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C37602D15FEED00C0341D /* NSData+Reading.m */; };
+		AB7C37642D15FEFA00C0341D /* operations.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C37632D15FEFA00C0341D /* operations.m */; };
+		AB7C37A52D16003D00C0341D /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = AB7C37A42D16003D00C0341D /* OpenSSL */; };
 		AB7CF93F2BDEB4F90051469D /* AppSmall1Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7CF93E2BDEB4F90051469D /* AppSmall1Block.swift */; };
 		AB9B5E4C2C799531002632EA /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = AB9B5E4B2C799531002632EA /* ZIPFoundation */; };
 		AB9B5E4F2C799585002632EA /* NotificationBannerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AB9B5E4E2C799585002632EA /* NotificationBannerSwift */; };
@@ -60,16 +60,8 @@
 
 /* Begin PBXFileReference section */
 		AB1C188E2C58620300B1D040 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		AB278AE72BD2B082005AA955 /* FixSubstrate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FixSubstrate.m; path = ../Downloads/FixSubstrate/FixSubstrate.m; sourceTree = "<group>"; };
 		AB278AE92BD2B238005AA955 /* FixSubstrate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixSubstrate.m; sourceTree = "<group>"; };
 		AB278AEA2BD2B38D005AA955 /* SubstrateFixer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubstrateFixer.h; sourceTree = "<group>"; };
-		AB278AF72BD2B692005AA955 /* operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = operations.h; path = ../Downloads/FixSubstrate/operations.h; sourceTree = "<group>"; };
-		AB278AF82BD2B692005AA955 /* headers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = headers.m; path = ../Downloads/FixSubstrate/headers.m; sourceTree = "<group>"; };
-		AB278AF92BD2B692005AA955 /* operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = operations.m; path = ../Downloads/FixSubstrate/operations.m; sourceTree = "<group>"; };
-		AB278AFA2BD2B692005AA955 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defines.h; path = ../Downloads/FixSubstrate/defines.h; sourceTree = "<group>"; };
-		AB278AFB2BD2B692005AA955 /* NSData+Reading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Reading.m"; path = "../Downloads/FixSubstrate/NSData+Reading.m"; sourceTree = "<group>"; };
-		AB278AFC2BD2B692005AA955 /* NSData+Reading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Reading.h"; path = "../Downloads/FixSubstrate/NSData+Reading.h"; sourceTree = "<group>"; };
-		AB278AFD2BD2B692005AA955 /* headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = headers.h; path = ../Downloads/FixSubstrate/headers.h; sourceTree = "<group>"; };
 		AB6AFC712B96D6450024C94E /* ThirdSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6AFC742B96D6450024C94E /* Nocturna_SideloadingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nocturna_SideloadingApp.swift; sourceTree = "<group>"; };
 		AB6AFC762B96D6450024C94E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,14 +94,22 @@
 		AB77297D2BD32D110000CCCD /* signing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = signing.cpp; sourceTree = "<group>"; };
 		AB77297E2BD32D110000CCCD /* signing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signing.h; sourceTree = "<group>"; };
 		AB77297F2BD32D110000CCCD /* zsign.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zsign.cpp; sourceTree = "<group>"; };
-		AB7729962BD33A330000CCCD /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = ../Downloads/CydiaSubstrate.framework; sourceTree = "<group>"; };
 		AB77299D2BD346390000CCCD /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsubstrate.dylib; sourceTree = "<group>"; };
 		AB77299F2BD34B9F0000CCCD /* LoggingBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingBridge.h; sourceTree = "<group>"; };
 		AB7729A02BD34B9F0000CCCD /* LoggingBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LoggingBridge.mm; sourceTree = "<group>"; };
+		AB7C371B2D15FE3000C0341D /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CydiaSubstrate.framework; sourceTree = "<group>"; };
+		AB7C37592D15FEA800C0341D /* FixSubstrate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixSubstrate.m; sourceTree = "<group>"; };
+		AB7C375B2D15FECB00C0341D /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		AB7C375C2D15FED400C0341D /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		AB7C375D2D15FEDB00C0341D /* headers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headers.m; sourceTree = "<group>"; };
+		AB7C375F2D15FEE500C0341D /* NSData+Reading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Reading.h"; sourceTree = "<group>"; };
+		AB7C37602D15FEED00C0341D /* NSData+Reading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Reading.m"; sourceTree = "<group>"; };
+		AB7C37622D15FEFA00C0341D /* operations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = operations.h; sourceTree = "<group>"; };
+		AB7C37632D15FEFA00C0341D /* operations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = operations.m; sourceTree = "<group>"; };
+		AB7C37652D15FF5800C0341D /* bits-stdc++.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bits-stdc++.h"; sourceTree = "<group>"; };
 		AB7CF93B2BDB3C3B0051469D /* Nocturna Sideloading.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nocturna Sideloading.entitlements"; sourceTree = "<group>"; };
 		AB7CF93E2BDEB4F90051469D /* AppSmall1Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSmall1Block.swift; sourceTree = "<group>"; };
 		ABE81CBF2BD0817C00BD0DC4 /* ZSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSign.h; sourceTree = "<group>"; };
-		ABE81CC62BD08D7A00BD0DC4 /* bits-stdc++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "bits-stdc++.h"; path = "../../Downloads/ac0fe7d7450621a39364ed3b05cacd11-e1dc9b6c9221f1477d52bab918c9e8e34bb362f4/bits-stdc++.h"; sourceTree = "<group>"; };
 		ABEA9ABC2BD755F8008AE25C /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +121,7 @@
 				ABE0C5472C5863EA0090B6FD /* libcrypto.a in Frameworks */,
 				AB9B5E4F2C799585002632EA /* NotificationBannerSwift in Frameworks */,
 				AB9B5E4C2C799531002632EA /* ZIPFoundation in Frameworks */,
+				AB7C37A52D16003D00C0341D /* OpenSSL in Frameworks */,
 				AB9B5E522C799656002632EA /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,17 +146,17 @@
 		AB6AFC682B96D6450024C94E = {
 			isa = PBXGroup;
 			children = (
+				AB7C371B2D15FE3000C0341D /* CydiaSubstrate.framework */,
 				AB77299D2BD346390000CCCD /* libsubstrate.dylib */,
-				AB7729962BD33A330000CCCD /* CydiaSubstrate.framework */,
 				AB7729802BD32D110000CCCD /* zsign-package */,
-				AB278AE72BD2B082005AA955 /* FixSubstrate.m */,
-				AB278AFA2BD2B692005AA955 /* defines.h */,
-				AB278AFD2BD2B692005AA955 /* headers.h */,
-				AB278AF82BD2B692005AA955 /* headers.m */,
-				AB278AFC2BD2B692005AA955 /* NSData+Reading.h */,
-				AB278AFB2BD2B692005AA955 /* NSData+Reading.m */,
-				AB278AF72BD2B692005AA955 /* operations.h */,
-				AB278AF92BD2B692005AA955 /* operations.m */,
+				AB7C37592D15FEA800C0341D /* FixSubstrate.m */,
+				AB7C375B2D15FECB00C0341D /* defines.h */,
+				AB7C375C2D15FED400C0341D /* headers.h */,
+				AB7C375D2D15FEDB00C0341D /* headers.m */,
+				AB7C375F2D15FEE500C0341D /* NSData+Reading.h */,
+				AB7C37602D15FEED00C0341D /* NSData+Reading.m */,
+				AB7C37622D15FEFA00C0341D /* operations.h */,
+				AB7C37632D15FEFA00C0341D /* operations.m */,
 				AB6AFC732B96D6450024C94E /* Nocturna Sideloading */,
 				AB6AFC842B96D6460024C94E /* Nocturna SideloadingTests */,
 				AB6AFC8E2B96D6460024C94E /* Nocturna SideloadingUITests */,
@@ -179,7 +180,7 @@
 			children = (
 				AB1C188E2C58620300B1D040 /* libcrypto.a */,
 				AB7CF93B2BDB3C3B0051469D /* Nocturna Sideloading.entitlements */,
-				ABE81CC62BD08D7A00BD0DC4 /* bits-stdc++.h */,
+				AB7C37652D15FF5800C0341D /* bits-stdc++.h */,
 				ABE81CBF2BD0817C00BD0DC4 /* ZSign.h */,
 				AB278AEA2BD2B38D005AA955 /* SubstrateFixer.h */,
 				AB6AFC742B96D6450024C94E /* Nocturna_SideloadingApp.swift */,
@@ -292,6 +293,7 @@
 				AB9B5E4B2C799531002632EA /* ZIPFoundation */,
 				AB9B5E4E2C799585002632EA /* NotificationBannerSwift */,
 				AB9B5E512C799656002632EA /* Swifter */,
+				AB7C37A42D16003D00C0341D /* OpenSSL */,
 			);
 			productName = "Nocturna Sideloading";
 			productReference = AB6AFC712B96D6450024C94E /* ThirdSign.app */;
@@ -370,6 +372,7 @@
 				AB9B5E4A2C799531002632EA /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				AB9B5E4D2C799585002632EA /* XCRemoteSwiftPackageReference "NotificationBanner" */,
 				AB9B5E502C799656002632EA /* XCRemoteSwiftPackageReference "swifter" */,
+				AB7C37A32D16003D00C0341D /* XCRemoteSwiftPackageReference "OpenSSL-Package" */,
 			);
 			productRefGroup = AB6AFC722B96D6450024C94E /* Products */;
 			projectDirPath = "";
@@ -388,7 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB77299E2BD346390000CCCD /* libsubstrate.dylib in Resources */,
-				AB77299C2BD343650000CCCD /* CydiaSubstrate.framework in Resources */,
 				AB6AFC7C2B96D6460024C94E /* Preview Assets.xcassets in Resources */,
 				AB77298A2BD32D110000CCCD /* README.md in Resources */,
 				AB7729872BD32D110000CCCD /* LICENSE in Resources */,
@@ -421,20 +423,20 @@
 				AB7729862BD32D110000CCCD /* bundle.cpp in Sources */,
 				AB7729892BD32D110000CCCD /* openssl.cpp in Sources */,
 				AB7CF93F2BDEB4F90051469D /* AppSmall1Block.swift in Sources */,
+				AB7C37612D15FEED00C0341D /* NSData+Reading.m in Sources */,
 				AB6AFCBC2B97E0CE0024C94E /* SettingsView.swift in Sources */,
 				ABEA9ABD2BD755F8008AE25C /* DocumentPicker.swift in Sources */,
 				AB7729882BD32D110000CCCD /* macho.cpp in Sources */,
 				AB7729A12BD34B9F0000CCCD /* LoggingBridge.mm in Sources */,
+				AB7C37642D15FEFA00C0341D /* operations.m in Sources */,
 				AB77298C2BD32D110000CCCD /* zsign.cpp in Sources */,
-				AB278AFF2BD2B692005AA955 /* operations.m in Sources */,
 				AB7729832BD32D110000CCCD /* json.cpp in Sources */,
-				AB278AEB2BD2B446005AA955 /* FixSubstrate.m in Sources */,
 				AB7729822BD32D110000CCCD /* common.cpp in Sources */,
 				AB6AFC772B96D6450024C94E /* ContentView.swift in Sources */,
 				AB6AFC752B96D6450024C94E /* Nocturna_SideloadingApp.swift in Sources */,
-				AB278AFE2BD2B692005AA955 /* headers.m in Sources */,
 				AB77298B2BD32D110000CCCD /* signing.cpp in Sources */,
-				AB278B002BD2B692005AA955 /* NSData+Reading.m in Sources */,
+				AB7C375A2D15FEA800C0341D /* FixSubstrate.m in Sources */,
+				AB7C375E2D15FEDB00C0341D /* headers.m in Sources */,
 				AB7729852BD32D110000CCCD /* archo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +616,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Nocturna\\ Sideloading",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(PROJECT_DIR)/Nocturna Sideloading\"";
@@ -665,6 +668,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Nocturna\\ Sideloading",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(PROJECT_DIR)/Nocturna Sideloading\"";
@@ -829,6 +833,14 @@
 				minimumVersion = 2.1.2;
 			};
 		};
+		AB7C37A32D16003D00C0341D /* XCRemoteSwiftPackageReference "OpenSSL-Package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL-Package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.2000;
+			};
+		};
 		AB9B5E4A2C799531002632EA /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
@@ -856,6 +868,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AB7C37A42D16003D00C0341D /* OpenSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7C37A32D16003D00C0341D /* XCRemoteSwiftPackageReference "OpenSSL-Package" */;
+			productName = OpenSSL;
+		};
 		AB9B5E4B2C799531002632EA /* ZIPFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AB9B5E4A2C799531002632EA /* XCRemoteSwiftPackageReference "ZIPFoundation" */;

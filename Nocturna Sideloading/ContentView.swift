@@ -2075,7 +2075,7 @@ struct ContentView: SwiftUI.View {
                             //let lastPathComponent = plistURL.lastPathComponent
                             server["/install.plist"] = shareFile(plistPath)
                             
-                            if let url = URL(string: "itms-services://?action=download-manifest&url=https://loyahdev.me/install") {
+                            if let url = URL(string: "itms-services://?action=download-manifest&url=https://loyah.dev/install") {
                                 DispatchQueue.main.async {
                                     UIApplication.shared.open(url)
                                 }
@@ -2265,7 +2265,7 @@ struct ContentView: SwiftUI.View {
                             if let plistURL = URL(string: plistPath) {//, UIApplication.shared.canOpenURL(plistURL) {
                                 // Your existing logic here
                                 server["/install.plist"] = shareFile(plistPath)
-                                if let url = URL(string: "itms-services://?action=download-manifest&url=https://loyahdev.me/install") {
+                                if let url = URL(string: "itms-services://?action=download-manifest&url=https://loyah.dev/install") {
                                     //DispatchQueue.main.async {
                                     UIApplication.shared.open(url)
                                     //}
