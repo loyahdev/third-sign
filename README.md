@@ -14,4 +14,4 @@ with an http proxy.
 
 3. In the Signing and Capabilities section in the main project change the signing team to your own developer account.
 
-4. Build the app and run it. Using a simulator will not work to do both file importing apps and the package files being built for iOS.
+4. Build the app and run it. Using a simulator will not work due to do both importing apps and the package files being built for iOS.
