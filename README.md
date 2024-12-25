@@ -1,4 +1,4 @@
-# ThirdSign
+# ThirdSign (Formerly Nocturna Sideloading)
 An iOS device sideloading tool ZSign ported to iOS using C++ and bridging headers. Tweak Injection was made using OpenSSL for load binary editing and ZSign to sign tweaks for installation. (Dylib, Deb, Framework)
 
 I made this to prove how it was possible to exploit signing capibilities on iOS and install apps locally
